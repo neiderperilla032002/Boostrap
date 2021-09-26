@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar {
+  position: fixed;
+  width: 230px;
+  height: 100%;
+  background-color: #97ce86;
+  left: -230px;
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
+}
+
+#sidebar ul li {
+  color: black;
+  text-align: center;
+  border-bottom: 1px solid #798b73;
+  padding: 15px 10px;
+  list-style: none;
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 240px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid black;
+}
+
+#sidebar.active {
+  left: 0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 190px;
+  height: 110px;
+}
+
+#TableBoostrap {
+  position: absolute;
+  top: 8%;
+  left: 16%;
+  width: 100%;
+  height: auto;
+  max-width: 83%;
+}
+/*# sourceMappingURL=main.css.map */
